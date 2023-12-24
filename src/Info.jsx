@@ -10,7 +10,7 @@ export const InfoComponent = () => {
 
     { Array.from(Array(15).keys()).map((element,index)=>{
         return <div style={{position:"relative"}}>
-
+            
             
         <img src= {`./${index+1}.jpg`} alt="error" />
         { index === 0 &&<div className="item1">
